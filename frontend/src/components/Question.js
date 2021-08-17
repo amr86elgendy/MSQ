@@ -68,8 +68,9 @@ const Question = () => {
                 answers.map((ans, i) => (
                   <Button
                     block
+                    variant='secondary'
                     key={i}
-                    className='my-3'
+                    className='my-3 p-2'
                     onClick={() => checkAnswer(correctAnswer === ans)}
                   >
                     {ans}
